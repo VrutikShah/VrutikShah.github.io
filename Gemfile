@@ -17,11 +17,17 @@ group :jekyll_plugins do
     gem 'jekyll-toc'
     gem 'jekyll-twitter-plugin'
     gem 'jemoji'
-    gem 'mini_racer'
-    gem 'unicode_utils'
-    gem 'webrick'
+    # gem 'mini_racer'
+    # gem 'unicode_utils'
+    # gem 'webrick'
 end
 group :other_plugins do
     gem 'feedjira'
     gem 'httparty'
+    gem 'nokogiri'
+    gem 'json'
+    # gem 'rack', '~> 2.2.4'
+    # gem 'rspec'
 end
+
+gem "webrick", "~> 1.8"
